@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Chapter 1 
 import pandas as pd
 
@@ -79,8 +78,3 @@ country_df = df['country']
 
 # Get the first, 100th, and 1000th rows
 print(df.iloc[[0, 99, 999]])
-=======
-import pandas as pd
-
-df = pd.
->>>>>>> 83b6a7e4eca937886dd1d98a10ff9d211d440b05

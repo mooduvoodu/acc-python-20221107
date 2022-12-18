@@ -1,6 +1,11 @@
 # Chapter 1 
 import pandas as pd
 
+# <<<<<<< HEAD
+df = pd.read_csv('classfiles/gapminder/gapminder.tsv', sep='\t')
+
+print(type(df))
+# =======
 # Chapter 1.2
 df = pd.read_csv('classfiles/gapminder/gapminder.tsv', sep='\t')
 
@@ -78,3 +83,4 @@ country_df = df['country']
 
 # Get the first, 100th, and 1000th rows
 print(df.iloc[[0, 99, 999]])
+# >>>>>>> dd4f1db1d4c726342e5e2e0f4c8703a1376199b1
